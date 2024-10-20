@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Use CORS with specific options (optional)
 app.use(cors({
-    origin: 'http://localhost:5173', // Allow requests from your React app
+    origin: 'https://vulncrure-certification.vercel.app', // Allow requests from your React app
     methods: ['GET', 'POST'], // Specify allowed methods
     credentials: true // Allow credentials (optional)
 }));
